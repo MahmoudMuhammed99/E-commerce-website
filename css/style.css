@@ -764,13 +764,17 @@ p {
           ====================================*/
 
 @media (max-width: 575.98px) {
+  .featured-nav > ul {
+    flex-direction: column;
+    gap: 25px;
+  }
   .featured-items {
     flex-direction: column;
     gap: 70px;
     width: 90%;
   }
 }
-@media (min-width: 575.98px) and (max-width: 767.98px) {
+@media (min-width: 575.98px) and (max-width: 800.98px) {
   .featured-nav > ul {
     flex-direction: column;
     gap: 25px;
