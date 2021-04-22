@@ -548,9 +548,8 @@ p {
                         ====================================*/
 
 @media (max-width: 767.98px) {
- 
   .discount-items .team p {
-    line-height: 1.4;
+    line-height: 1.5;
     padding-bottom: 50px;
   }
   .discount-items {
