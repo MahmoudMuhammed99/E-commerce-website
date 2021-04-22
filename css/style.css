@@ -832,6 +832,9 @@ p {
     flex-direction: column;
     gap: 25px;
   }
+  .about-right p {
+    padding-bottom: 20px;
+  }
 }
 @media (min-width: 768.98px) and (max-width: 991.98px) {
   .about-flex {
