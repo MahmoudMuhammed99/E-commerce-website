@@ -291,7 +291,7 @@ nav > ul .dropdawon .dropdawon-menu ul li a {
   nav label,
   nav input {
     position: absolute;
-    top: -50px;
+    top: -55px;
   }
   nav .nave-list {
     align-items: center;
@@ -299,7 +299,7 @@ nav > ul .dropdawon .dropdawon-menu ul li a {
   /*logo*/
 
   .header-container .logo img {
-    width: 50%;
+    width: 60%;
   }
   /*nav*/
   .header-container nav {
@@ -548,11 +548,15 @@ p {
                         ====================================*/
 
 @media (max-width: 767.98px) {
+  .discount-items .team p {
+    line-height: 1.4;
+    padding-bottom: 50px;
+  }
   .discount-items {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2%;
-    width: 80%;
+    gap: 5%;
+    width: 60%;
     margin: 5% auto;
   }
 }
@@ -772,9 +776,10 @@ p {
     flex-direction: column;
     gap: 70px;
     width: 90%;
+    justify-content: center;
   }
 }
-@media (min-width: 575.98px) and (max-width: 800.98px) {
+/* @media (min-width: 576.98px) and (max-width: 800.98px) {
   .featured-nav > ul {
     flex-direction: column;
     gap: 25px;
@@ -784,7 +789,7 @@ p {
     gap: 40px;
     width: 80%;
   }
-}
+} */
 @media (min-width: 768.98px) and (max-width: 991px) {
   .featured-items {
     flex-flow: wrap row;
