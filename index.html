@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Rocker</title>
 </head>
@@ -12,11 +13,15 @@
     <header class="main-header">
         <div class="container">
             <div class="header-container">
+               
             <div class="logo">
                <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
             </div> <!-- ../logo-->
             <nav>
                 <!-- navbar -->
+                <input type="checkbox" id="menu">
+                <label for="menu"></label>
+
                 <ul class="nave-list">
                     <!-- dropdown -->
                     <li class="dropdawon">
@@ -44,6 +49,7 @@
                             <li><a href="#">poefs</a> </li>
                             <li><a href="#">long charset</a> </li>
                         </ul>
+                       
                     </div>
                     </li>
                     <li><a href="#">armories</a></li>
@@ -173,14 +179,14 @@
                 </div>
                     <i class="fas fa-quote-left comma"></i>
             </div>
-            <div class="discount-item">
+            <div class="discount-item item1">
                 <img src="images/cms-banner-1.jpg" alt="">
                 <div class="discount-content">
                 <span>30% discount</span>
                 <h4>designing interior</h4>
             </div>
             </div>
-            <div class="discount-item">
+            <div class="discount-item item2">
                 <img src="images/cms-banner-2.jpg" alt="">
                 <div class="discount-content">
                 <span>20% discount</span>
@@ -468,8 +474,10 @@
                 </div>
             </div>
             <div class="info">
-                <ul>
-                    <li><a href="#" class="list-header">information</a></li>
+                <a href="#" class="list-header">information</a>
+                <input type="checkbox" id="menu">
+                <label for="menu"><i class="fas fa-chevron-down"></i></label>
+                <ul class="info-list">
                     <li><a href="#">about us</a></li>
                     <li><a href="#">delivery information</a></li>
                     <li><a href="#">privacy policy</a></li>
@@ -479,8 +487,11 @@
 
             </div>
             <div class="my-account">
-                <ul>
-                    <li><a href="#" class="list-header">my account</a></li>
+                <a href="#" class="list-header">my account</a>
+                <input type="checkbox" id="menu">
+                    <label for="menu"><i class="fas fa-chevron-down"></i></label>
+                    
+                <ul class="account-list">
                     <li><a href="#">my account</a></li>
                     <li><a href="#">order history</a></li>
                     <li><a href="#">wish list</a></li>
@@ -491,13 +502,14 @@
             <div class="subscribe">
                 <a href="#">subscribe now</a>
                 <div class="email-input">
-                    <input  type="search" placeholder="enter your email adress">
+                    <input  type="search" placeholder="Enter your email adress">
                     <div class="send-icon">
                         <i class="far fa-paper-plane send"></i>
                     </div>
                 </div>
                     
                 <div class="socail-media">
+
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fab fa-youtube"></i></a></li>
@@ -508,8 +520,13 @@
                 </div>
             </div>
         </div>
+       
+        <div class="copy-right">
+            <span>all &copy; copy-right reserved to Mahmoud muhammed </span>
+        </div>
     </div>
     </footer>
+    
     <!-- ../footer -->
     <script src="https://kit.fontawesome.com/c36afd10a7.js" crossorigin="anonymous"></script>
 </body>
